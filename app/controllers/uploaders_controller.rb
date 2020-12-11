@@ -69,6 +69,6 @@ class UploadersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def uploader_params
-      params.require(:uploader).permit(:title, :info)
+      params.require(:uploader).permit(:title, :info, :photo, :music)
     end
 end
