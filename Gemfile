@@ -22,6 +22,11 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+#gems for file upload
+gem 'paperclip', '~> 6.0'
+gem 'aws-sdk-s3', '~> 1.9'
+gem 'paperclip-av-transcoder'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
