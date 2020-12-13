@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+ .main
+ {
+  width: 70%;
+  margin: auto;
+  padding: 5%;
+  background-color: #fff;
+ }
+
+ @media (max-width: 576px)
+ {
+   .main
+ {
+  width: 70%;
+  margin: auto;
+  padding: 5%;
+  background-color: #fff;
+ }
+ }
