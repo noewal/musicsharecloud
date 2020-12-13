@@ -10,5 +10,23 @@
   <%= @uploader.info %>
 </p>
 
+<p>
+  <strong>Photo:</strong>
+  <% if @uploader.photo.present? %>
+  <%= image_tag(@uploader.photo.url, style:"width:100%" )%>
+  <% else %>
+  "No Photo Available."
+  <% end %>
+</p>
+
+<p>
+  <strong>Music:</strong>
+  <% if @uploader.music.present? %>
+  <%= audio_tag(@uploader.music.url, controls:true ,style:"width:100%" )%>
+  <% else %>
+  "No Music Available."
+  <% end %>
+</p>
+
 <%= link_to 'Edit', edit_uploader_path(@uploader) %> |
 <%= link_to 'Back', uploaders_path %>
