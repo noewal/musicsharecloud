@@ -11,6 +11,10 @@
 
 URL:https://musicsharecloud.herokuapp.com/
 
-利用方法:New Uploader ボタンを押し好きな音楽と好きな画像を選び共有する。
-
-Markdown: ![音楽アップロッド]（https://gyazo.com/bb869a74a323352a2a6a153b473c27b6）
+利用方法:New Uploader ボタンを押します。
+　　　　　https://gyazo.com/fb659b4297289925fedaf4a5b9860b69
+     　
+      　TitleやInfoを入力して共有したい音楽と画像を選びCreate Uploaderを押す。
+       　https://gyazo.com/7bbc3bc476ec6e2ab8edfede65c5d564
+        
+        
